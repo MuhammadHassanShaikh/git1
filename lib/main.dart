@@ -5,7 +5,10 @@ void main() {
     home: Scaffold(
       body: Center(
         child: Center(
-          child: Text('Hassan'),
+          child: Text(
+            'Hassan',
+            style: TextStyle(fontSize: 20),
+          ),
         ),
       ),
     ),
